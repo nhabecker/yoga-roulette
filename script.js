@@ -141,6 +141,6 @@ function showSortedWorkouts(sortKeys) {
 }
 
 $.get("data/workouts.json", function(results) {
-  workouts = results;
+  workouts = results.workouts;
   showRandom();
 }.bind(this));
