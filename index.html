@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+
+    <title>Yoga Roulette</title>
+
+    <meta name="description" content="yoga roulette suggests a random yoga workout from the best of youtube!"/>
+    <meta property="keywords" content="yoga, workouts, free workouts, free yoga, free yoga class, classpass"/>
+    <meta name="language" content="english"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- React -->
+    <script src="https://fb.me/react-0.14.6.js"></script>
+    <script src="https://fb.me/react-dom-0.14.6.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Lodash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Custom styles -->
+    <link href="cover.css" rel="stylesheet">
+    <link rel="icon" href="favicon.png"/>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-72250207-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-static-top navbar-inverse">
+    <container>
+        <div id="nav-header" class="navbar-header">
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="nav-random"></li>
+                <li id="nav-why"></li>
+                <li id="nav-list"></li>
+            </ul>
+        </div>
+
+    </container>
+
+</nav>
+
+    <div class="site-wrapper">
+        <div id="video" class="clearfix">Loading video...</div>
+    </div>
+
+
+</body>
+
+<!-- My code -->
+<script type="text/babel" src="script.js"></script>
+
+
+</html>
