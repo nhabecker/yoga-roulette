@@ -47,8 +47,7 @@ MyVideo = React.createClass({
         React.createElement(
             "iframe",
             { frameBorder: 0, width: 560, height: 315, src: this.props.workout.embedUrl, allowFullScreen: true }
-        ),
-        React.createElement("div", { className: "play-button triangle-right" })
+        )
     );
   }
 });
