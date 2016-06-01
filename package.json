@@ -2,7 +2,7 @@
   "name": "yoga-roulette",
   "version": "1.0.0",
   "description": "scripts and things",
-  "main": "bin/script.js",
+  "main": "index.js",
   "bin": {
     "yoga-roulette": "instayoga.js"
   },
