@@ -1,0 +1,28 @@
+{
+  "name": "yoga-roulette",
+  "version": "1.0.0",
+  "description": "scripts and things",
+  "main": "bin/script.js",
+  "bin": {
+    "yoga-roulette": "instayoga.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.13.1",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhabecker/yoga-roulette.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhabecker/yoga-roulette/issues"
+  },
+  "homepage": "https://github.com/nhabecker/yoga-roulette"
+}

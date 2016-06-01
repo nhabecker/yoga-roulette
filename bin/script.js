@@ -48,7 +48,7 @@ function processPopularPosts() {
 }
 
 function writeFile(data) {
-    fs.writeFile('data.json', JSON.stringify(data, null, 2), function(err) {
+    fs.writeFile('public/data/instagrams.json', JSON.stringify(data, null, 2), function(err) {
         if (err) {
             return console.log('Error:', err);
         }
