@@ -1,0 +1,458 @@
+{
+  "workouts" : [ {
+    "embedUrl" : "https://www.youtube.com/embed/4PgIfOOHwH8",
+    "minutes" : 10,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/4PgIfOOHwH8",
+    "title" : "Flexibility and Range of Motion | Beginner Yoga With Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/V_ngi5RHP7c",
+    "minutes" : 9,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/V_ngi5RHP7c",
+    "title" : "Full Body Yoga Routine | The Yoga Solution With Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/rpKix-Dr-jg",
+    "minutes" : 30,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/rpKix-Dr-jg",
+    "title" : "Let It Go Yoga: Free 30-Minute Full Workout",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/edNfbfelDHE",
+    "minutes" : 9,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/edNfbfelDHE",
+    "title" : "Core Strength | Beginner Yoga With Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/T_gC_d44BQ4",
+    "minutes" : 13,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/T_gC_d44BQ4",
+    "title" : "Fat burning yoga with Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/VS0ou7H2Cd8",
+    "minutes" : 11,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/VS0ou7H2Cd8",
+    "title" : "Ultimate Stretch Yoga Routine | The Yoga Solution With Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/mZoYNuGwF-c",
+    "minutes" : 10,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/mZoYNuGwF-c",
+    "title" : "Total Body Holiday Yoga Workout | The Yoga Solution With Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/bk71G6dXemc",
+    "minutes" : 11,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/bk71G6dXemc",
+    "title" : "Routine for a Deep Sleep | The Yoga Solution With Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/2BSe1QCW4KI",
+    "minutes" : 10,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/2BSe1QCW4KI",
+    "title" : "Body and Mind Flexibility Routine | The Yoga Solution With Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/_tQ0Pn-KFSU",
+    "minutes" : 9,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/_tQ0Pn-KFSU",
+    "title" : "Handstand Yoga Flow with Tara Stiles",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/pOc8bV40OWo",
+    "minutes" : 7,
+    "provider" : "Tara Stiles",
+    "shareUrl" : "https://youtu.be/pOc8bV40OWo",
+    "title" : "Yoga for Productivity | Beginner Yoga with Tara Stiles",
+    "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/AQW-VL5f3NA",
+      "minutes" : 14,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/AQW-VL5f3NA",
+      "title" : "Yoga for Strength and Focus with Tara Stiles",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/5PxZO_VdI48",
+      "minutes" : 10,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/5PxZO_VdI48",
+      "title" : "Daily Yoga Practice II Whole Body Stretch",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/UptIMnxsHT0",
+      "minutes" : 9,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/UptIMnxsHT0",
+      "title" : "Daily Yoga Practice II Wake Up Flow",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/MRHCN-sfR0E",
+      "minutes" : 8,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/MRHCN-sfR0E",
+      "title" : "My Daily Yoga Practice II Strong Core Flow",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/B4TGPMx4KQI",
+      "minutes" : 9,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/B4TGPMx4KQI",
+      "title" : "My Daily Yoga Practice II Hips & Back Flow",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/_tQ0Pn-KFSU",
+      "minutes" : 9,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/_tQ0Pn-KFSU",
+      "title" : "Handstand Yoga Flow with Tara Stiles",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/jQlZFKQKVC4",
+      "minutes" : 9,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/jQlZFKQKVC4",
+      "title" : "Daily Yoga Practice II Inspiration Flow",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/LqOsyqSzztc",
+      "minutes" : 11,
+      "provider" : "Tara Stiles",
+      "shareUrl" : "https://youtu.be/LqOsyqSzztc",
+      "title" : "Beginner Yoga Flow",
+      "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/F58WpqRMKQ4",
+    "minutes" : 23,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/F58WpqRMKQ4",
+    "title" : "lululemon | Unwind Your Neck & Shoulders (23 mins)",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/9z7P1YTyuA4",
+    "minutes" : 21,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/9z7P1YTyuA4",
+    "title" : "lululemon | Hip Openers (21 mins)",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/b7X16dadiss",
+    "minutes" : 25,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/b7X16dadiss",
+    "title" : "lululemon | yoga practice with ambassador Amber J",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/gr4XsyQquwM",
+    "minutes" : 19,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/gr4XsyQquwM",
+    "title" : "Yoga for Recovery",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/lmw1XLPbO_U",
+    "minutes" : 17,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/lmw1XLPbO_U",
+    "title" : "Yoga for Strength",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/QlgDPA9o21A",
+    "minutes" : 34,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/QlgDPA9o21A",
+    "title" : "SeaWheeze 2013 Yoga Practice",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/9xqreYcJJeU",
+    "minutes" : 48,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/9xqreYcJJeU",
+    "title" : "lululemon SeaWheeze 2014 yoga practice",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/YnRAASt5s1g",
+    "minutes" : 41,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/YnRAASt5s1g",
+    "title" : "lululemon | SeaWheeze 2015 yoga practice",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/iskyDKzaq2k",
+    "minutes" : 27,
+    "provider" : "Lululemon",
+    "shareUrl" : "https://youtu.be/iskyDKzaq2k",
+    "title" : "lululemon: Detox Flow with Clara Roberts-Oss",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/AUJW1Kd4zik",
+    "minutes" : 30,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/AUJW1Kd4zik",
+    "title" : "Yoga Camp Day 1 - I Accept",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/HRk-WE9PU3Q",
+    "minutes" : 52,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/HRk-WE9PU3Q",
+    "title" : "Yoga Camp Day 2 - I Create",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/LF8Ru4KKcIw",
+    "minutes" : 35,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/LF8Ru4KKcIw",
+    "title" : "Yoga Camp Day 3 - I Embrace",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/koEISXwxd_4",
+    "minutes" : 37,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/koEISXwxd_4",
+    "title" : "Yoga Camp Day 4 - I Awaken",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/u9LmRtvSkgA",
+    "minutes" : 31,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/u9LmRtvSkgA",
+    "title" : "Yoga Camp Day 5 - I Am Alive",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/i2FuXlNGWVo",
+    "minutes" : 25,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/i2FuXlNGWVo",
+    "title" : "Yoga Camp Day 6 - I Am Supported (Six Pack Abs)",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/C08K8ghRo9E",
+    "minutes" : 24,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/C08K8ghRo9E",
+    "title" : "Yoga Camp Day 7 - I Am Capable",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/db-RzzAIKkg",
+    "minutes" : 30,
+    "provider" : "Yoga with Adriene",
+    "shareUrl" : "https://youtu.be/db-RzzAIKkg",
+    "title" : "Yoga Camp Day 8 - I Choose",
+    "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/OtHkbqxIgpU",
+      "minutes" : 33,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/OtHkbqxIgpU",
+      "title" : "Yoga Camp Day 9 - I Am Bold",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/yZyrMLpCSz4",
+      "minutes" : 39,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/yZyrMLpCSz4",
+      "title" : "Yoga Camp Day 10 - I Am Present",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/APWgM2y49oM",
+      "minutes" : 44,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/APWgM2y49oM",
+      "title" : "Yoga Camp Day 11 - I Release",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/XTdjAZk2Mek",
+      "minutes" : 44,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/XTdjAZk2Mek",
+      "title" : "Yoga Camp Day 12 - I Trust",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/DWmPx8Dk988",
+      "minutes" : 44,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/DWmPx8Dk988",
+      "title" : "Yoga Camp Day 13 - I Deserve",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/R4LBMlGf_ok",
+      "minutes" : 29,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/R4LBMlGf_ok",
+      "title" : "Yoga Camp Day 14 - Go With The Flow",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/h4nrSBW9S6k",
+      "minutes" : 39,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/h4nrSBW9S6k",
+      "title" : "Yoga Camp Day 15 - I Am Open",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/hdAKRgtCrlY",
+      "minutes" : 15,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/hdAKRgtCrlY",
+      "title" : "Yoga Camp Day 16 - I Enjoy",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/aTB-6Ns4MFM",
+      "minutes" : 27,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/aTB-6Ns4MFM",
+      "title" : "Yoga Camp Day 17 - I Am Focused",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/igV2YL01Pic",
+      "minutes" : 30,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/igV2YL01Pic",
+      "title" : "Yoga Camp Day 18 - I Surrender",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/Q_AgjOSsCKE",
+      "minutes" : 32,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/Q_AgjOSsCKE",
+      "title" : "Yoga Camp Day 19 - I Respect",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/FYfEGzE912E",
+      "minutes" : 28,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/FYfEGzE912E",
+      "title" : "Yoga Camp Day 20 - I Am Worthy",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/XNKBmAoUA-8",
+      "minutes" : 30,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/XNKBmAoUA-8",
+      "title" : "Yoga Camp Day 21 - I Believe",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/g-95XxazILE",
+      "minutes" : 17,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/g-95XxazILE",
+      "title" : "Yoga Camp Day 22 - I Surround Myself With..",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/zHOAY6ZeLXY",
+      "minutes" : 37,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/zHOAY6ZeLXY",
+      "title" : "Yoga Camp Day 23 - I Am Secure",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/X0c7shiwTUg",
+      "minutes" : 39,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/X0c7shiwTUg",
+      "title" : "Yoga Camp Day 24 - I Am In Control",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/0Xdof3DtZuk",
+      "minutes" : 27,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/0Xdof3DtZuk",
+      "title" : "Yoga Camp Day 25 - I Am Strong",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/rSNwb8VWYXs",
+      "minutes" : 40,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/rSNwb8VWYXs",
+      "title" : "Yoga Camp Day 26 - I Attract",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/eOnuVowyHC4",
+      "minutes" : 37,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/eOnuVowyHC4",
+      "title" : "Yoga Camp Day 27 - I Am Grateful",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/aw4z7sLw78I",
+      "minutes" : 33,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/aw4z7sLw78I",
+      "title" : "Yoga Camp Day 28 - I Celebrate",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/LoGS5MGa4Yg",
+      "minutes" : 27,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/LoGS5MGa4Yg",
+      "title" : "Yoga Camp Day 29 - I Love",
+      "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/-PfwGqcduwo",
+      "minutes" : 39,
+      "provider" : "Yoga with Adriene",
+      "shareUrl" : "https://youtu.be/-PfwGqcduwo",
+      "title" : "Yoga Camp Day 30 - It's All You",
+      "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/71hRcTchMdc",
+    "minutes" : 14,
+    "provider" : "Bad Yogi",
+    "shareUrl" : "https://youtu.be/71hRcTchMdc",
+    "title" : "7-Day Yoga Challenge, Day 1: Yoga for Lower Back Pain",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/uhTzuM6ZoAg",
+    "minutes" : 13,
+    "provider" : "Bad Yogi",
+    "shareUrl" : "https://youtu.be/uhTzuM6ZoAg",
+    "title" : "7-Day Yoga Challenge Day 2: 12 Minute Weight Loss Yoga",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/a1LPTugNum4",
+    "minutes" : 16,
+    "provider" : "Bad Yogi",
+    "shareUrl" : "https://youtu.be/a1LPTugNum4",
+    "title" : "7-Day Yoga Challenge, Day 3: Flow to Side Crow",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/rMTgKC9til0",
+    "minutes" : 16,
+    "provider" : "Bad Yogi",
+    "shareUrl" : "https://youtu.be/rMTgKC9til0",
+    "title" : "7-Day Yoga Challenge, Day 4: Yoga for Tight Hips",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/LlRqMqj2Xfg",
+    "minutes" : 18,
+    "provider" : "Bad Yogi",
+    "shareUrl" : "https://youtu.be/LlRqMqj2Xfg",
+    "title" : "7-Day Yoga Challenge, Day 5: Yoga Backbends & Wheel Pose",
+    "type" : "yoga"
+  }, {
+    "embedUrl" : "https://www.youtube.com/embed/-sS6oghekeA",
+    "minutes" : 15,
+    "provider" : "Bad Yogi",
+    "shareUrl" : "https://youtu.be/-sS6oghekeA",
+    "title" : "7-Day Yoga Challenge, Day 6: Yoga for Upper Body Strength",
+    "type" : "yoga"
+  }, {
+      "embedUrl" : "https://www.youtube.com/embed/ufjYuHAsPSc",
+      "minutes" : 15,
+      "provider" : "Bad Yogi",
+      "shareUrl" : "https://youtu.be/ufjYuHAsPSc",
+      "title" : "7-Day Yoga Challenge, Day 7: Yoga for a Better Butt!",
+      "type" : "yoga"
+  } ]
+}

@@ -4,9 +4,11 @@ var fs = require('fs');
 var requestUri = 'https://api.instagram.com/v1/tags/yogaeverydamnday/media/recent';
 var accessToken = '16168781.97584da.976aedb0dc3d4d1084d444e05657b4cd';
 var popularPosts = [];
+var pg = require('pg');
+pg.defaults.ssl = true;
 
 recursiveCallInstagram(requestUri + '?access_token=' + accessToken).then((pp) => {
-    writeFile(processPopularPosts());
+    writeData(processPopularPosts());
     process.exit();
 }).catch((err) => {
     console.log('err', err);
@@ -49,11 +51,12 @@ function processPopularPosts() {
     });
 }
 
-function writeFile(data) {
-    fs.writeFile('public/data/instagrams.json', JSON.stringify(data, null, 2), function(err) {
-        if (err) {
-            return console.log('Error:', err);
-        }
-        console.log('File saved');
-    })
+function writeData(posts) {
+    pg.connect(process.env.DATABASE_URL, function(err, client) {
+        if (err) throw err;
+
+        _.forEach(posts, (posts) => {
+            client.query("INSERT INTO instagrams(thumbnail, link, hashtag) values($1, $2, $3)", [post.thumbnail, post.link, "yogaeverydamnday"]);
+        });
+    });
 }

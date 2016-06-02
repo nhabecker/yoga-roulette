@@ -40,107 +40,109 @@ ReactDOM.render(
 );
 
 MyVideo = React.createClass({
-  render: function() {
-    return React.createElement(
-        "div",
-        { className: "video-container" },
-        React.createElement(
-            "iframe",
-            { frameBorder: 0, width: 560, height: 315, src: this.props.workout.embedUrl, allowFullScreen: true }
-        )
-    );
-  }
+    render: function() {
+        return React.createElement(
+            "div",
+            { className: "video-container" },
+            React.createElement(
+                "iframe",
+                { frameBorder: 0, width: 560, height: 315, src: 'https://www.youtube.com/embed/' + this.props.workout.id, allowFullScreen: true }
+            )
+        );
+    }
 });
 
 MyVideoList = React.createClass({
-  render: function() {
-    var videoNodes = this.props.data.map(function(video) {
-      return React.createElement(
-          "tr",
-          {
-            key: video.shareUrl,
-            data: video,
-            onClick: function() {
-              showWorkout(video);
-            }
-          },
-          React.createElement("td", {}, video.title),
-          React.createElement("td", {}, video.provider),
-          React.createElement("td", {}, video.minutes)
-      );
-    });
-    return React.createElement(
-        "div",
-        {},
-        (<div className="panel panel-heading"><h1>The Videos</h1></div>),
-        React.createElement(
-            "table",
-            { className: 'table table-hover'},
+    render: function() {
+        var videoNodes = this.props.data.map(function(video) {
+            return React.createElement(
+                "tr",
+                {
+                    key: video.id,
+                    data: video,
+                    onClick: function() {
+                        showWorkout(video);
+                    }
+                },
+                React.createElement("td", {}, video.title),
+                React.createElement("td", {}, video.channelName),
+                React.createElement("td", {}, video.minutes)
+            );
+        });
+        return React.createElement(
+            "div",
+            {},
+            (<div className="panel panel-heading"><h1>The Videos</h1></div>),
             React.createElement(
-                'thead',
-                {},
+                "table",
+                { className: 'table table-hover'},
                 React.createElement(
-                    'tr',
+                    'thead',
                     {},
-                    React.createElement('th', { onClick: function() { sortByColumn(['title']);  } }, 'Workout'),
-                    React.createElement('th', { onClick: function() { sortByColumn(['provider', 'title']); } }, 'Instructor'),
-                    React.createElement('th', { onClick: function() { sortByColumn(['minutes', 'title']); } }, 'Minutes')
-                )
-            ),
-            React.createElement('tbody', {}, videoNodes)
-        )
-    );
-  }
+                    React.createElement(
+                        'tr',
+                        {},
+                        React.createElement('th', { onClick: function() { sortByColumn(['title']);  } }, 'Workout'),
+                        React.createElement('th', { onClick: function() { sortByColumn(['channelName', 'title']); } }, 'Instructor'),
+                        React.createElement('th', { onClick: function() { sortByColumn(['minutes', 'title']); } }, 'Minutes')
+                    )
+                ),
+                React.createElement('tbody', {}, videoNodes)
+            )
+        );
+    }
 });
 
 function showRandom() {
-  showWorkout(_.sample(workouts));
+    showWorkout(_.sample(workouts));
 }
 
 function showWorkout(workout) {
-  ReactDOM.render(
-      React.createElement(MyVideo, { workout: workout }),
-      document.getElementById('video')
-  );
-  window.scrollTo(0,0);
+    ReactDOM.render(
+        React.createElement(MyVideo, { workout: workout }),
+        document.getElementById('video')
+    );
+    window.scrollTo(0,0);
 }
 
 function showWhy() {
-  ReactDOM.render(
-      (
-        <div>
-          <div className="panel panel-heading">
-            <h1>What is this?</h1>
-          </div>
-          <div className="panel-body">
-            <p>I created Yoga Roulette so I can easily find a yoga workout to do at home without having to search through the YouTube.</p>
-            <p>I also created it so I can play around with React and Firebase. (Sorry it's so basic.)</p>
-            <p>If you have any suggestions (video recommendations or improvements to the site), <a href="http://twitter.com/nancyhabs">tweet at me</a>!</p>
-          </div>
-        </div>
-      ),
-      document.getElementById('video')
-  );
+    ReactDOM.render(
+        (
+            <div>
+                <div className="panel panel-heading">
+                    <h1>What is this?</h1>
+                </div>
+                <div className="panel-body">
+                    <p>I created Yoga Roulette so I can easily find a yoga workout to do at home without having to search through the YouTube.</p>
+                    <p>I also created it so I can play around with React and Firebase. (Sorry it's so basic.)</p>
+                    <p>If you have any suggestions (video recommendations or improvements to the site), <a href="http://twitter.com/nancyhabs">tweet at me</a>!</p>
+                </div>
+            </div>
+            ),
+        document.getElementById('video')
+    );
 }
 
 function showList() {
-  sortOrder = 'asc';
-  showSortedWorkouts(['provider', 'title']);
+    sortOrder = 'asc';
+    showSortedWorkouts(['channelName', 'title']);
 }
 
 function sortByColumn(sortKeys) {
-  showSortedWorkouts(sortKeys);
-  sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+    showSortedWorkouts(sortKeys);
+    sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
 }
 
 function showSortedWorkouts(sortKeys) {
-  ReactDOM.render(
-      React.createElement(MyVideoList, { data: _.sortByOrder(workouts, sortKeys, _.fill(Array(sortKeys.length), sortOrder)) }),
-      document.getElementById('video')
-  );
+    ReactDOM.render(
+        React.createElement(MyVideoList, { data: _.sortByOrder(workouts, sortKeys, _.fill(Array(sortKeys.length), sortOrder)) }),
+        document.getElementById('video')
+    );
 }
 
-$.get("data/workouts.json", function(results) {
-  workouts = results.workouts;
-  showRandom();
+console.log('hello');
+$.get("data/videos.json", function(results) {
+    console.log('got workouts', results.workouts);
+    workouts = results.workouts;
+    showRandom();
 }.bind(this));
