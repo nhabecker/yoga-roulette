@@ -9,12 +9,13 @@
   "dependencies": {
     "express": "^4.13.4",
     "lodash": "^4.13.1",
+    "pg": "4.5.5",
     "request": "^2.72.0"
   },
   "devDependencies": {},
   "scripts": {
-     "start": "node index.js",
-     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
